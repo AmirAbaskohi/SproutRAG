@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sproutrag"
+version = "0.1.0"
+description = "SproutRAG Phase 1 data and preprocessing layer"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "SproutRAG Contributors" }]
+dependencies = ["torch", "transformers", "datasets"]
+
+[project.optional-dependencies]
+yaml = ["PyYAML"]
+eval = ["rouge-score", "nltk", "bert-score"]
+spacy = ["spacy"]
+
+[project.scripts]
+sproutrag = "sproutrag.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sproutrag*"]
+
