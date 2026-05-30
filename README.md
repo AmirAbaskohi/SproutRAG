@@ -1,12 +1,18 @@
-<h1><img src="misc/logo.png" alt="SproutRAG" width="50" style="vertical-align: middle; margin-bottom: 25px;"> SproutRAG</h1>
+<div align="center">
+  <h1>
+    <img src="misc/logo.png" alt="SproutRAG" width="50" style="vertical-align: middle; margin-bottom: 25px;">
+    SproutRAG
+    <img src="misc/logo.png" alt="SproutRAG" width="50" style="vertical-align: middle; margin-bottom: 25px;">
+  </h1>
 
-<p>
-  <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue.svg">
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg">
-  <img alt="Transformers" src="https://img.shields.io/badge/transformers-%E2%89%A54.51-yellow.svg">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
-  <img alt="Status" src="https://img.shields.io/badge/status-research-orange.svg">
-</p>
+  <p>
+    <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue.svg">
+    <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg">
+    <img alt="Transformers" src="https://img.shields.io/badge/transformers-%E2%89%A54.51-yellow.svg">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
+    <img alt="Status" src="https://img.shields.io/badge/status-research-orange.svg">
+  </p>
+</div>
 
 SproutRAG is a retrieval-augmented generation stack built for structured, multi-granularity evidence. It combines hierarchical attention-based indexing with flexible retrieval, optional reranking, and generation pipelines. The result is a practical system for building and evaluating RAG workflows end-to-end.
 
