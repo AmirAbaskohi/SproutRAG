@@ -10,7 +10,6 @@
     <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg">
     <img alt="Transformers" src="https://img.shields.io/badge/transformers-%E2%89%A54.51-yellow.svg">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
-    <img alt="Status" src="https://img.shields.io/badge/status-research-orange.svg">
   </p>
 </div>
 
