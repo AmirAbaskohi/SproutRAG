@@ -406,3 +406,16 @@ sproutrag retrieve \
 - All outputs are JSON for easy integration with downstream tools.
 - Keep configs in version control to make runs reproducible.
 - For MS MARCO training, the training pipeline currently loads the first 30k examples from the v2.1 train split.
+
+## Citation
+```
+@misc{abaskohi2026sproutragattentionguidedtreesearch,
+      title={SproutRAG: Attention-Guided Tree Search with Progressive Embeddings for Long-Document RAG}, 
+      author={Amirhossein Abaskohi and Issam H. Laradji and Peter West and Giuseppe Carenini},
+      year={2026},
+      eprint={2606.18381},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.18381}, 
+}
+```
