@@ -6,6 +6,9 @@
   </h1>
 
   <p>
+    <a href="https://arxiv.org/pdf/2606.18381">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-paper-b31b1b.svg">
+    </a>
     <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-blue.svg">
     <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-2.x-ee4c2c.svg">
     <img alt="Transformers" src="https://img.shields.io/badge/transformers-%E2%89%A54.51-yellow.svg">
